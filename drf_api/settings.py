@@ -37,10 +37,11 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = os.environ.get('SECRET_KEY')
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = 'DEV' in os.environ
+# DEBUG = 'DEV' in os.environ
+DEBUG = True
 
 ALLOWED_HOSTS = [os.environ.get(
-    'drf-api-blog-e8bc679bb796.herokuapp.com'
+    'https://drf-api-blog-e8bc679bb796.herokuapp.com/'
     ),
     '8000-ahmadhazrati-drfapi-1gslv83apfc.ws-eu106.gitpod.io']
 

@@ -42,7 +42,7 @@ DEBUG = 'DEV' in os.environ
 ALLOWED_HOSTS = [os.environ.get(
     'ALLOWED_HOST'
     ),
-    '8000-ahmadhazrati-drfapi-1gslv83apfc.ws-eu105.gitpod.io']
+    '8000-ahmadhazrati-drfapi-1gslv83apfc.ws-eu106.gitpod.io']
 
 
 # Application definition

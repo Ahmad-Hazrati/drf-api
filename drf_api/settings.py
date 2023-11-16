@@ -41,7 +41,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 DEBUG = True
 
 ALLOWED_HOSTS = [os.environ.get(
-    'https://drf-api-blog-e8bc679bb796.herokuapp.com/'
+    'drf-api-blog-e8bc679bb796.herokuapp.com'
     ),
     '8000-ahmadhazrati-drfapi-1gslv83apfc.ws-eu106.gitpod.io']
 
